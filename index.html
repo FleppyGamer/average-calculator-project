@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <img src="images/logo.png" alt="hood and certificate">
+        <h1>Average Calculator</h1>
+    </header>
+    <form id="form-activity">
+        <input type="text" id="activity-name" required placeholder="Activity Name">
+        <input type="number" id="activity-grade" required placeholder="Grade" min="0" max="10" id="number">
+        <button type="submit">Add +</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>Activity Name</th>
+                <th>Grade</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td id="final-average">8</td>
+                <td id="final-average-result">Approved</td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
